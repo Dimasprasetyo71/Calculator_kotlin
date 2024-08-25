@@ -99,13 +99,13 @@ fun CalculatorScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background) // Background color
+            .background(MaterialTheme.colorScheme.background) 
             .padding(16.dp)
     ) {
         Column(
             modifier = Modifier
                 .align(Alignment.Center)
-                .background(MaterialTheme.colorScheme.surface) // Background color for calculator area
+                .background(MaterialTheme.colorScheme.surface) 
                 .padding(16.dp)
                 .border(1.dp, MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f))
         ) {
